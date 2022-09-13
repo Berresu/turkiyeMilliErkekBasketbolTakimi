@@ -6,7 +6,7 @@
 
 body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #kapsayici{
@@ -16,6 +16,13 @@ body{
     margin-right: auto;
     padding: auto;
     margin: auto;
+}
+
+#kapsayici > img{
+    display: flex;
+    flex-direction: column;
+    width: 15vh;
+    height: 15vh;
 }
 
 #kapsayici > h2{
